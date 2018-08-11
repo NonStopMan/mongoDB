@@ -7,7 +7,7 @@ before((done) => {
     mongoose.connect("mongodb://localhost:27017/borderguru_orders", {
         "auth": { "authSource": "admin" },
         "user": "admin",
-        "pass": "admin123",
+        "pass": "admin",
         useNewUrlParser: true
     })
         .then(() => {
